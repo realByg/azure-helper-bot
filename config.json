@@ -1,0 +1,87 @@
+{
+  "BOT": {
+    "NAME": "Azure 小助手",
+    "TOKEN": "",
+    "ADMINS": []
+  },
+  "VM": {
+    "LOCATIONS": {
+      "美国中": "centralus",
+      "美国东": "eastus",
+      "美国西": "westus",
+      "东亚": "eastasia",
+      "东南亚": "southeastasia",
+      "日本东": "japaneast",
+      "日本西": "japanwest",
+      "韩国中": "koreacentral",
+      "韩国南": "koreasouth"
+    },
+    "SIZES": {
+      "B1s": "Standard_B1s",
+      "B2s": "Standard_B2s",
+      "B4ms": "Standard_B4ms",
+      "D2s_v3": "Standard_D2s_v3",
+      "D4s_v3": "Standard_D4s_v3",
+      "F1s": "Standard_F1s",
+      "F2": "Standard_F2",
+      "F2s": "Standard_F2s",
+      "F4s": "Standard_F4s"
+    },
+    "OS_INFOS": {
+      "Ubuntu 16.04": {
+        "os": "Ubuntu 16.04",
+        "image_reference": {
+          "publisher": "Canonical",
+          "offer": "UbuntuServer",
+          "sku": "16.04-LTS",
+          "version": "latest"
+        }
+      },
+      "Ubuntu 18.04": {
+        "os": "Ubuntu 18.04",
+        "image_reference": {
+          "publisher": "Canonical",
+          "offer": "UbuntuServer",
+          "sku": "18.04-LTS",
+          "version": "latest"
+        }
+      },
+      "CentOs 7.5": {
+        "os": "CentOs 7.5",
+        "image_reference": {
+          "publisher": "OpenLogic",
+          "offer": "CentOS",
+          "sku": "7.5",
+          "version": "latest"
+        }
+      },
+      "CentOS 8.2": {
+        "os": "CentOS 8.2",
+        "image_reference": {
+          "publisher": "OpenLogic",
+          "offer": "CentOS",
+          "sku": "8_2",
+          "version": "latest"
+        }
+      },
+      "Debian 10": {
+        "os": "Debian 10",
+        "image_reference": {
+          "publisher": "debian",
+          "offer": "debian-10",
+          "sku": "10",
+          "version": "latest"
+        }
+      },
+      "Debian 9": {
+        "os": "Debian 9",
+        "image_reference": {
+          "publisher": "credativ",
+          "offer": "Debian",
+          "sku": "9",
+          "version": "latest"
+        }
+      }
+    }
+  }
+}
