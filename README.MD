@@ -35,7 +35,7 @@
 
 1. 在 [@botfather](https://t.me/botfather) 新建一个 bot，记下 `bot token`
 
-2. 根据系统平台下载 release 中打包好的一键包和 `config.json`
+2. 下载 release 中的压缩包并解压
 
 3. 按照你的需求编辑 `config.json`，`*` 的部分需要去掉或编辑
 
@@ -132,7 +132,12 @@
    }
    ```
 
-4. `sudo chmod +x az* && /az*` 启动 bot
+4. 选择相应的系统平台，给予运行权限并运行
+
+   ```
+   chmod +x az*
+   /az*
+   ```
 
 ### 🐛 使用问题
 
