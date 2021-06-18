@@ -5,6 +5,7 @@
     "ADMINS": []
   },
   "VM": {
+    "DISK_SIZE_DEFAULT": 64,
     "LOCATIONS": {
       "美国中": "centralus",
       "美国东": "eastus",

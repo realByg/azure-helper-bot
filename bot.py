@@ -119,7 +119,7 @@ def start(m):
         types.InlineKeyboardButton(text='管理实例', callback_data='mvm::')
     )
     bot.send_message(
-        text=f'<b>欢迎使用 <a href="https://github.com/azure-helper-bot">{BOT_NAME}</a></b>\n'
+        text=f'<b>欢迎使用 <a href="https://github.com/zayabighead/azure-helper-bot">{BOT_NAME}</a></b>\n'
              f'你可以管理 Azure 账号，创建实例，更换 IP 等\n\n'
              f'请选择你要进行的操作：',
         chat_id=m.from_user.id,
