@@ -47,6 +47,7 @@
        "ADMINS": [*你的 telegram 数字 id]
      },
      "VM": {
+       "DISK_SIZE_DEFAULT": *默认磁盘大小,
        "LOCATIONS": {
          "*创建虚拟机时显示的地区": "*可根据需求编辑",
          "美国中": "centralus",
